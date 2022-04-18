@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.main-section {
+    background: radial-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url("../images/main-image.jpg");
+    /* background-position: center; */
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 57px 0px 40px;
+}
+
+.logo img {
+    width: 9rem;
+}
+
+.sign-in {
+    background: #E50914;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.lang-selector {
+    padding: 9px 13px;
+    background: transparent;
+    border-color: white;
+    color: white;
+    margin-right: 2rem;
+    outline: none;
+}
+
+.lang-selector option {
+    background: rgb(129, 126, 126);
+    font-size: 1.2em;
+}
+
+
+/* ------------- MAIN SECTION ----------- */
+
+.main-container {
+    height: 86vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-info {
+    color: white;
+    text-align: center;
+}
+
+.email-form {
+    margin-top: 2rem;
+    color: white;
+    text-align: center;
+}
+
+.main-heading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.2em;
+}
+
+.main-subtitle {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+}
+
+
+/* ------------- EMAIL SECTION STYLING ------------------  */
+
+.email-subtitle {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.cta-area {
+    height: 60px;
+    width: 40rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.email-input {
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    border: none;
+    width: 428px;
+    height: 58px;
+    padding-left: 13px;
+    font-size: 1em;
+}
+
+.email-btn {
+    width: 212px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    background: #DF0712;
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+    overflow: hidden;
+    cursor: pointer;
+    height: 58px;
+}
