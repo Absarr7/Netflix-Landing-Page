@@ -275,3 +275,68 @@
 .part4-image img {
     width: 100%;
 }
+
+
+/* ------------- FAQ ------------------ */
+
+.question-container {
+    background: black;
+    padding-top: 60px;
+    color: white;
+}
+
+.question-container h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 3%;
+}
+
+.question-container button {
+    border: none;
+    background-color: #303030;
+    height: 75px;
+    width: 60.4%;
+    padding: 16px;
+    font-size: 23px;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+    cursor: pointer;
+}
+
+.question-container button i {
+    width: 3%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    position: absolute;
+    right: 20px;
+}
+
+.question-container .answer1,
+.answer2,
+.answer3,
+.answer4,
+.answer5,
+.answer6 {
+    background-color: #303030;
+    width: 60.4%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 34px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    transition: 400ms ease;
+    display: none;
+}
+
+.question-container hr {
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 60.4%;
+}
